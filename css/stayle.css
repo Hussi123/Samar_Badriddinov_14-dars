@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,900;1,400&family=Quicksand:wght@300;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --Plafair: 'Playfair Display', serif;
+    --Quiksand: 'Quicksand', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --dark: #3c393d;
+    --exdark: #2b2b2b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--Quiksand);
+}
+
+body{
+    line-height: 1.4;
+    color: var(--dark);
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1320px;
+    padding: 0 1.2rem;
+}
+
+/* header section start */
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgb(0,0,0,0.4), url(/images/bannerImage.webp) center/cover no-repeat fixed);
+}
