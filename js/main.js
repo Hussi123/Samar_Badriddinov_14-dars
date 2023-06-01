@@ -7,7 +7,6 @@ input.onkeyup= (element) =>{
         let url='https://www.google.com/search?q='+input.value;
         window.open(url, "_self");
         tozala()
-        alert("ok")
     }
 }
 

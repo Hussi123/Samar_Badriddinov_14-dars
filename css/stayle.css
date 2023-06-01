@@ -71,7 +71,6 @@ header{
 .navbar-nav a:hover{
     opacity: 0.7;
 }
-
 .banner{
     color: #fff;
     display: flex;
@@ -106,7 +105,6 @@ header{
     margin-left:auto;
     margin-right:auto;
 }
-
 .search-input{
     font-family:var(--Roboto);
     font-size: 1.2rem;
@@ -114,11 +112,9 @@ header{
     border: 0;
     padding: 0.6rem 0;
 }
-
 .search-input::placeholder{
     text-transform: capitalize;
 }
-
 .search-btn{
     width: 40px;
     font-size: 1.2rem;
@@ -128,3 +124,98 @@ header{
     outline: none;
     cursor: pointer;
 }
+/* header end */
+
+/* design start */
+.design{
+    padding: 4.5rem 0;
+}
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+.title h2{
+    font-family: var(--Plafair);
+    font-size:2.4rem;
+    color: var(--dark);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.title p{
+    text-transform: uppercase;
+    padding: 0.6rem 0;
+}
+.design-content{
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 1fr = 225px */
+    gap: 2rem;
+}
+.design-item{
+    cursor: pointer;
+    margin: 0;
+}
+.design-img{
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+.design-img::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.3 );
+}
+
+
+.design-img img {
+    transition: all ease 300ms;
+    height: 100%;
+}
+
+.design-img:hover > img{
+    transform: scale(1.2);
+}
+.design-img span:first-of-type{
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 10px;
+    background: var(--dark);
+    color: #FFF;
+    padding: 0.25rem 1rem;
+    z-index: 1;
+}
+
+.design-img span:last-of-type{
+    position: absolute;
+    content: "";
+    bottom: 10px;
+    right: 10px;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 700;
+    z-index: 1;
+}
+.design-title{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.design-title a{
+    color: var(--dark);
+    font-family: var(--Plafair);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+
+
+/* design end */
