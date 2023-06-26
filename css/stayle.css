@@ -151,6 +151,7 @@ header{
     grid-template-columns: repeat(3, 1fr); /* 1fr = 225px */
     gap: 2rem;
 }
+
 .design-item{
     cursor: pointer;
     margin: 0;
@@ -214,8 +215,6 @@ header{
     text-decoration: none;
     text-transform: capitalize;
 }
-
-
 
 
 /* design end */

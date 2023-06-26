@@ -4,7 +4,7 @@ console.log(input.value);
 
 input.onkeyup= (element) =>{
     if(element.code==="Enter"){
-        let url='https://www.google.com/search?q='+input.value;
+        let url='https://www.youtube.com/'+input.value;
         window.open(url, "_self");
         tozala()
     }
